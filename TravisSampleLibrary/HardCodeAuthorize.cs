@@ -13,8 +13,8 @@ namespace TravisSampleLibrary
 
         public bool Auth(string username, string password)
         {
-            return true; // uncomment for bug
-            //return (username == _username) && (password == _password);
+            //return true; // uncomment for bug
+            return (username == _username) && (password == _password);
         }
     }
 }
